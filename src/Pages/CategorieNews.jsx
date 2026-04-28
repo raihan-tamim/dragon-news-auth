@@ -26,7 +26,7 @@ const CategorieNews = () => {
             <h1 className="font-bold text-gray-600">Dragon news home</h1> 
             <div className="flex flex-col gap-5 mt-5">
                 {
-                    categoryNews.map(news=><NewsCard key={news.category_id} news={news}></NewsCard>)
+                    categoryNews.map(news=><NewsCard key={news._id} news={news}></NewsCard>)
                 }
             </div>
         </div>
