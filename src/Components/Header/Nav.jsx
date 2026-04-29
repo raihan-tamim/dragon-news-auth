@@ -24,7 +24,7 @@ const Nav = () => {
                 <NavLink to='/career'>Career </NavLink>
             </div>
             <div className="flex items-center gap-3">
-                <img className='h-12 w-12 rounded-full object-cover' src={`${user? user.photoURL : profile}`} alt="" />
+                <img className='h-12 w-12 rounded-full object-cover' src={`${user? user?.photoURL : profile }`} alt="" />
                 {user? 
                 <button onClick={handleLogout} className="btn bg-gray-700 text-white font-bold px-10 py-2">Logout</button> :
                 <Link to='/auth/login' className="btn bg-gray-700 text-white font-bold px-10 py-2">Login</Link>

@@ -2,7 +2,7 @@
     {
         "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
         "others_info": {
-            "is_todays_pick": false,
+            "is_todays_pick": true,
             "is_trending": true
         },
         "category_id": "01",

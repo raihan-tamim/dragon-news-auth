@@ -23,7 +23,7 @@ const CategorieNews = () => {
     },[ data, id])
     return (
         <div>
-            <h1 className="font-bold text-gray-600">Dragon news home</h1> 
+            <h1 className="font-bold text-xl text-gray-600">News found ({categoryNews.length})</h1> 
             <div className="flex flex-col gap-5 mt-5">
                 {
                     categoryNews.map(news=><NewsCard key={news._id} news={news}></NewsCard>)
